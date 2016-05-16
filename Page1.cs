@@ -4,18 +4,18 @@ using Xamarin.Forms;
 namespace rice_g
 {
    
-    public class Main : ContentPage
+    public class Farmer1 : ContentPage
     {
         Label a;
         Button WaterButton1, WaterButton2, SoilButton1, SoilButton2, SoilButton3, WeatherButton1, WeatherButton2;
-        public Main()
+        public Farmer1()
         {
             a = new Label
             {
                 Text = "Rice growing advisor",
                 VerticalOptions = LayoutOptions.Center,
                 HorizontalOptions =LayoutOptions.Center,
-                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label))
             };
             WaterButton1 = new Button
             {
@@ -23,7 +23,10 @@ namespace rice_g
                 VerticalOptions = LayoutOptions.Center,
                 HorizontalOptions = LayoutOptions.FillAndExpand
             };
-            
+            WaterButton1.Clicked += async (sender, args) =>
+            {
+                await Navigation.PushModalAsync(new Farmer2());
+            };
 
             WaterButton2 = new Button
             {
@@ -89,7 +92,7 @@ namespace rice_g
                             SoilButton2,
                             SoilButton3,
                             WeatherButton1,
-                            WeatherButton2,
+                            WeatherButton2
                             
                         }
                     }

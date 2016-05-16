@@ -12,7 +12,9 @@ namespace rice_g
         public App()
         {
             // The root page of your application
-            MainPage = new Main();
+            MainPage = new Farmer1();
+            new Farmer2();
+
             
         }
 
