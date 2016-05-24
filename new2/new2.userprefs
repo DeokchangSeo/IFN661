@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="iOS/new2.iOS.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6s.9.3" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="new2/MainPage.xaml">
+    <Files>
+      <File FileName="new2/MainPage.xaml" Line="16" Column="1" />
+      <File FileName="new2/MainPage.xaml.cs" Line="1" Column="1" />
+      <File FileName="new2/new2.cs" Line="1" Column="1" />
+      <File FileName="new2/obj/Debug/MainPage.xaml.g.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

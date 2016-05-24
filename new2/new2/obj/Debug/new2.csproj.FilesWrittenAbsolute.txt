@@ -1,0 +1,9 @@
+/Users/Isuru/Projects/new2/new2/obj/Debug/.NETPortable,Version=v4.5,Profile=Profile78.AssemblyAttribute.cs
+/Users/Isuru/Projects/new2/new2/obj/Debug/new2.MainPage.xaml
+/Users/Isuru/Projects/new2/new2/obj/Debug/MainPage.xaml.g.cs
+/Users/Isuru/Projects/new2/new2/bin/Debug/new2.dll.mdb
+/Users/Isuru/Projects/new2/new2/bin/Debug/new2.dll
+/Users/Isuru/Projects/new2/new2/obj/Debug/new2.dll
+/Users/Isuru/Projects/new2/new2/obj/Debug/new2.dll.mdb
+/Users/Isuru/Projects/new2/new2/bin/Debug/Xamarin.Forms.Core.dll
+/Users/Isuru/Projects/new2/new2/bin/Debug/Xamarin.Forms.Xaml.dll
