@@ -8,11 +8,11 @@ using Xamarin.Forms;
 
 namespace NewProject.Views
 {
-    public partial class Page3 : ContentPage
-    {
-        public Page3()
-        {
-            InitializeComponent();
-        }
-    }
+	public partial class Page3 : ContentPage
+	{
+		public Page3()
+		{
+			InitializeComponent();
+		}
+	}
 }

@@ -1,0 +1,2 @@
+/Users/seodeokchang/GitHub/IFN661/NewProject/NewProject/NewProject.Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/seodeokchang/GitHub/IFN661/NewProject/NewProject/NewProject.Droid/obj/Debug/NewProject.Droid.dll
