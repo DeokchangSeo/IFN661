@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewProject.Views.Page4" BackgroundImage="icon.png">
+  
+    <StackLayout  >
+      
+      <Label Text="NPK values for the soil " TextColor="Black" FontSize="24"/>
+      <Frame OutlineColor="Red" HasShadow="True" BackgroundColor="Black">
+        <ContentView   >
+          <Label Text ="NPK Level
+                 
+                 Nitrogen: Medium
+                 
+                 Phosprous: Medium
+                 
+                 Potassium: High" FontSize="20"/>
+        </ContentView> 
+      </Frame>
+      
+      <Label Text ="Required Fertlizers" TextColor="Black" FontSize="24"/>
+
+      <Frame OutlineColor="Red" HasShadow="True" BackgroundColor="Black">
+        <ContentView>
+          <Label Text=" Urea: 50Kg
+                 
+                        Ammonium Nitrate: 25kg
+                        
+                        Ammonium Sulphate: 30kg"
+                        FontSize="20"  />
+
+        </ContentView>
+        
+      </Frame>
+      
+    </StackLayout>
+    
+  
+  
+              
+    
+ 
+</ContentPage>

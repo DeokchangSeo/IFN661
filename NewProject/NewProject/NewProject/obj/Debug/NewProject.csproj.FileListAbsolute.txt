@@ -12,7 +12,6 @@ c:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewPr
 c:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\Xamarin.Forms.Platform.pdb
 c:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\Xamarin.Forms.Xaml.pdb
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.MainPage.xaml.g.cs
-C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page1.xaml.g.cs
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\GalaSoft.MvvmLight.dll
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\GalaSoft.MvvmLight.Extras.dll
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\Microsoft.Practices.ServiceLocation.dll
@@ -24,5 +23,11 @@ C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewPr
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\Microsoft.Practices.ServiceLocation.xml
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page2.xaml.g.cs
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page3.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page4.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page5.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Page6.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.About.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Help.xaml.g.cs
+C:\Users\sneha\Documents\Visual Studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.Views.Farmer.xaml.g.cs
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\obj\Debug\NewProject.dll.mdb
 C:\Users\sneha\documents\visual studio 2015\Projects\NewProject\NewProject\NewProject\bin\Debug\NewProject.dll.mdb

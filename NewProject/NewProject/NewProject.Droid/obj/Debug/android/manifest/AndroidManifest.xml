@@ -5,8 +5,8 @@
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:name="mono.android.app.Application" android:allowBackup="true" android:label="NewProject.Droid" android:icon="@drawable/icon" android:debuggable="true">
-    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="NewProject" android:name="md5b48756404edc8a5c75939ee77d64a271.MainActivity">
+  <application android:name="mono.android.app.Application" android:allowBackup="true" android:label="NewProject.Droid" android:icon="@drawable/agri" android:debuggable="true">
+    <activity android:configChanges="orientation|screenSize" android:icon="@drawable/agri" android:label="Agriculture advisor" android:name="md5b48756404edc8a5c75939ee77d64a271.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

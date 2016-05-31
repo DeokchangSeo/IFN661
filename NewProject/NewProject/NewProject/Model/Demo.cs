@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace NewProject.Model
 {
-    class Demo
+   public class Demo
     {
+         public string title { get; set; }
+       
     }
 }

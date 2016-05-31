@@ -2,31 +2,41 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NewProject.Views.MainPage"
-  Title="Rice Growing Advisor"
-             
-             Padding="10, 10, 10, 10" >
-  
-  <Grid  >
-    
-    <Label Text="Rice Growing Advisor"
-           FontSize="20"
-           XAlign="Start"
-           VerticalOptions="Start" />
+  Title="{Binding title}" 
+   BackgroundImage="icon.png"      
+              >
+
+
+  <Grid>
+
+    <Label Text="{Binding title}"
+           FontSize="24"
+           FontAttributes="Bold"
+           VerticalOptions="Start"
+           BackgroundColor="Black" />
+
+
 
     <Button Text="Farmer"
+            BackgroundColor="Black"
+            TextColor="White"
         HorizontalOptions="Start"
-            VerticalOptions="Center"
+            VerticalOptions="CenterAndExpand"
   Clicked="OnButtonClick1"/>
-  
-<Button Text="Advisor"
-    HorizontalOptions="Center"   
-        VerticalOptions="Center"
-  Clicked="OnButtonClick2"/>
-    
-  <Button Text="Fertilizer"
-      HorizontalOptions="End"
-          VerticalOptions="Center"
-  Clicked="OnButtonClick3"/>
-  </Grid>
 
+    <Button Text="Advisors"
+            BackgroundColor="Black"
+            TextColor="White"
+        HorizontalOptions="Center"
+            VerticalOptions="CenterAndExpand"
+      Clicked="OnButtonClick2"/>
+
+    <Button Text="Fertilizer"
+            BackgroundColor="Black"
+            TextColor="White"
+        HorizontalOptions="End"
+            VerticalOptions="CenterAndExpand"
+    Clicked="OnButtonClick3"/>
+  </Grid>
+  
 </ContentPage>

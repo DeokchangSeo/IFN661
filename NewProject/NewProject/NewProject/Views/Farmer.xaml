@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewProject.Views.Farmer"
+  Title="Farmer HomePage" BackgroundImage="icon.png" >
+  
+ <StackLayout Padding="10,10,10,10">
+  
+   <Label Text="Farmers Homepage"
+           FontSize="20"
+           XAlign="Start"
+          TextColor="White"
+           BackgroundColor="Black"/>
+  
+   <Button Text="Water Level" 
+          BackgroundColor="Black"
+          TextColor="White"
+   HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+  Clicked="OnButtonClicked4" />
+    <Button Text="Water Quality" 
+          BackgroundColor="Black"
+          TextColor="White"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+          />
+    <Button Text="Soil Moisture" 
+          BackgroundColor="Black"
+          TextColor="White"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+          />
+    <Button Text="NPK Content" 
+          BackgroundColor="Black"
+          TextColor="White"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+         Clicked="OnButtonClicked4" />
+    <Button Text="Soil Temperature" 
+          BackgroundColor="Black"
+          TextColor="White"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+          Clicked="OnButtonClicked5"/>
+    <Button Text="Humidity" 
+          BackgroundColor="Black"
+          TextColor="White"
+            HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand"
+         Clicked="OnButtonClicked6" />
+   
+ 
+ </StackLayout>
+  
+
+</ContentPage>

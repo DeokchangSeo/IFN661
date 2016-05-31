@@ -1,34 +1,25 @@
-using GalaSoft.MvvmLight;
 
-namespace NewProject.ViewModel
+using System;
+
+namespace MVVMPatern
 {
-    /// <summary>
-    /// This class contains properties that the main View can data bind to.
-    /// <para>
-    /// Use the <strong>mvvminpc</strong> snippet to add bindable properties to this ViewModel.
-    /// </para>
-    /// <para>
-    /// You can also use Blend to data bind with the tool's support.
-    /// </para>
-    /// <para>
-    /// See http://www.galasoft.ch/mvvm
-    /// </para>
-    /// </summary>
-    public class MainViewModel : ViewModelBase
+  
+    public class MainViewModel 
     {
-        /// <summary>
-        /// Initializes a new instance of the MainViewModel class.
-        /// </summary>
-        public MainViewModel()
+        
+        public MainViewModel(NewProject.Model.Demo demo)
         {
-            ////if (IsInDesignMode)
-            ////{
-            ////    // Code runs in Blend --> create design time data.
-            ////}
-            ////else
-            ////{
-            ////    // Code runs "for real"
-            ////}
+            title = demo.title;
+        }
+        public string title { get; set; }
+       
+        public static NewProject.Model.Demo GetDemo()
+        {
+            var demo = new NewProject.Model.Demo()
+            {
+                title = "rice growing Advisors"
+            };
+            return demo;
         }
     }
 }
